@@ -1,0 +1,24 @@
+{
+  "name": "arweave-web2-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cedriking/arweave-web2-tutorial.git",
+  "author": "Cedrik <cedrik.git@tryninja.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "rimraf dist && parcel build ./src/index.html --public-url ./ --no-source-maps"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-beta.3.1",
+    "@types/jquery": "^3.5.6",
+    "parcel": "^2.0.0-beta.3.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "@textury/ardb": "^1.1.1",
+    "arweave": "^1.10.15",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0"
+  }
+}

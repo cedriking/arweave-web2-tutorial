@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO List</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col">
+            <h1>TODO List</h1>
+          </div>
+          <div class="col text-end">
+            <a href="#" class="btn btn-primary">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <form id="itemAdd" class="form-inline">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="inputItem" placeholder="Add new item">
+                <label for="inputItem">Add new item</label>
+              </div>
+            </form>
+
+            <ul id="itemsList">
+              <li>First item</li>
+              <li>Second item</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/app.ts"></script>
+</body>
+</html>
