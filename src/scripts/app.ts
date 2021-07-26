@@ -1,15 +1,15 @@
 import "../scss/main.scss";
 
 import "bootstrap";
-import * as $ from "jquery";
+import $ from "jquery";
 import Arweave from 'arweave';
 import Account from "./account";
 import ArDB from '@textury/ardb';
 
 const arweave = Arweave.init({
-  host: 'arweave.net',
-  port: 443,
-  protocol: 'https'
+  host: 'localhost',
+  port: 1984,
+  protocol: 'http'
 });
 
 const ardb = new ArDB(arweave);
