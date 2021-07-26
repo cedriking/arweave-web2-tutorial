@@ -1,7 +1,7 @@
 import "../scss/main.scss";
 
 import "bootstrap";
-import * as $ from "jquery";
+import $ from "jquery";
 
 $(() => {
   $('#itemAdd').on('submit', e => {
